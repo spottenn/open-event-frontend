@@ -93,7 +93,7 @@ module.exports = function(defaults) {
   app.import('node_modules/tinyColorPicker/jqColorPicker.min.js', {
     using: [{ transformation: 'fastbootShim' }]
   });
-  app.import('vendor/jquery-ui.min.js', {
+  app.import('node_modules/jquery-ui/dist/jquery-ui.min.js', {
     using: [{ transformation: 'fastbootShim' }]
   });
 

@@ -28,7 +28,6 @@
       "open-event-frontend/*": [
         "app/*",
         "lib/cache-updater/app/*",
-        "lib/start-title/app/*"
       ],
       "cache-updater": [
         "lib/cache-updater/addon"
@@ -41,18 +40,6 @@
       ],
       "cache-updater/test-support/*": [
         "lib/cache-updater/addon-test-support/*"
-      ],
-      "start-title": [
-        "lib/start-title/addon"
-      ],
-      "start-title/*": [
-        "lib/start-title/addon/*"
-      ],
-      "start-title/test-support": [
-        "lib/start-title/addon-test-support"
-      ],
-      "start-title/test-support/*": [
-        "lib/start-title/addon-test-support/*"
       ],
       "fetch": [
         "node_modules/ember-fetch"
@@ -67,6 +54,6 @@
     "tests/**/*",
     "types/**/*",
     "lib/cache-updater/**/*",
-    "lib/start-title/**/*"
+    "types/**/*"
   ]
 }
